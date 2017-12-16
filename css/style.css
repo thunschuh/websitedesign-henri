@@ -1,0 +1,143 @@
+body {
+    background-color: #cad1d0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 15pt;
+}
+
+.bgimg{
+    background-image: url('../img/Header.jpg');
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 480px;
+    width: 100%;
+    height: auto ;
+    margin-top: 0px;
+     /*background-size: 100%;*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+
+}
+
+header h1 {
+    color: aliceblue;
+    padding-top: 50px;
+    text-align-last:center; 
+  
+}
+
+.navbar {
+    background: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    color: #000000 !important;
+    letter-spacing: 3px;
+}
+
+
+.about{
+    font-family: 'Roboto', sans-serif;
+    color: #c6a5a5;
+    margin-top: -20px;
+    padding: 50px 100px;
+    background: rgba(242,233,233,0.9);
+    line-height: 2;
+  
+}
+
+.about h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 23pt;
+    text-transform: uppercase;
+    color: #625d5d;
+    margin-bottom: 30px;
+}
+
+
+.bandimage{
+    background-image: url('../img/bandbg.jpg');
+    background-repeat:no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+    opacity: 0.5;
+    margin-top:-20px;
+}
+
+#tour-bg{
+    background: rgba(171,177,201,0.5);
+    margin-top:-20px;
+    width:100%;
+   
+}
+
+.tour {
+    margin-top:-20px;
+    /*background-color: rgba(171,177,201,0.5);*/
+    min-height: 300px;
+    line-height: 34px;
+    padding: 50px 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #545454;
+    
+}
+
+.tour h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 23pt;
+    text-transform: uppercase;
+    color: #625d5d;
+    margin-bottom: 30px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+   
+
+}
+
+.social {
+    margin-left:10px;
+}
+
+.contact {
+    color: #738184;
+    min-height: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 20pt;
+    padding: 50px 100px;
+}
+
+.contact h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 23pt;
+    text-transform: uppercase;
+    color: #625d5d;
+    margin-bottom: 30px;
+}
+
